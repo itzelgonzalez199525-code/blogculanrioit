@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores Con Sonrisa - Blog Culinario</title>
+    <link rel="stylesheet"  href="css/estilos.css">
+    <link rel="icon" href="imagenes/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+     <header>
+         <div class="container">
+            <div class="logo">
+                <h1>🌮 Sabores Con Sonrisa</h1>
+                <p>Recetas tradicionales con sabor auténtico</p>
+            </div>
+            <nav class="nav-menu">
+                <ul class="menu-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#recetas">Recetas</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div style="display: flex; align-items: center;">
+                <button id="theme-toggle" class="theme-toggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+           
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Descubre el Auténtico Sabor de México</h1>
+            <p>Recetas tradicionales, ingredientes frescos y sabores que evocan nuestra tierra</p>
+            <a href="#recetas" class="cta-button">Explorar Recetas</a>
+        </div>
+    </section>
+
+    <section class="featured-recipes" id="recetas">
+        <div class="container">
+            <h2>Recetas Destacadas</h2>
+            <div class="recipes-grid">
+                <article class="recipe-card featured">
+                    <div class="recipe-image">
+                        <img src="imagenes/carlota.jpeg" alt="Carlota de limon">
+                        <span class="recipe-badge">Popular</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Carlota de Limon</h3>
+                        <p>La carlota de limón es un postre cremoso sin horno compuesto por capas de galleta maría y una deliciosa crema de limón.</p>
+                        <div class="recipe-meta">
+                            <span>⏱ 15 min</span>
+                            <span>👨‍🍳 Media</span>
+                            <span>👥 8 personas</span>
+                        </div>
+                        <a href="receta-carlota.html" class="recipe-button">Ver Receta</a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="imagenes/agua.jpeg" alt="Agua de limon">
+                        <span class="recipe-badge">Bebidas</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Agua de Limon</h3>
+                        <p>Esta recete de agua de limón es una bebida que acompaña muy bien todas las comidas.
+
+
+                        </p>
+                        <div class="recipe-meta">
+                            <span>⏱ 20 min</span>
+                            <span>👨‍🍳 Fácil</span>
+                            <span>👥 6 personas</span>
+                        </div>
+                        <a href="receta-agua.html" class="recipe-button">Ver Receta</a>
+                    </div>
+                </article>
+                <article class="recipe-card featured">
+                    <div class="recipe-image">
+                        <img src="imagenes/enchiladas.jpeg" alt="Enchiladas verdes">
+                        <span class="recipe-badge">Especial</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Enchiladas Verdes</h3>
+                        <p>Enchiladas verdes hechas con pollo deshebrado, una vibrante salsa verde de tomatillo y chile serrano, y tortillas de maíz blanco. Este platillo clásico está lleno de sabor fresco e inspirado en las tradiciones locales de la Ciudad de México.</p>
+                        <div class="recipe-meta">
+                            <span>⏱ 20 min</span>
+                            <span>👨‍🍳 Moderada</span>
+                            <span>👥 6 personas</span>
+                        </div>
+                        <a href="receta-chiles.html" class="recipe-button">Ver Receta</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories" id="categorias">
+        <div class="container">
+            <h2>Categorías</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🌮</div>
+                    <h3>Antojitos</h3>
+                    <p>0 recetas</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍲</div>
+                    <h3>Platos Fuertes</h3>
+                    <p>1 recetas</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🥗</div>
+                    <h3>Bebidas</h3>
+                    <p>1 recetas</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍰</div>
+                    <h3>Postres</h3>
+                    <p>1 receta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="about" id="sobre-mi">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre Mí</h2>
+                <p>¡Hola! Soy Itzelt Gonzalez, una persona que le gusta la cocina mexicana. He vivido en 3 comunidades en las que he visto como la gastromia mexica tiene mucha diversidad
+                    He visto a varias personas cocinar platillos deliciosos e increibles es por ello que quiero compartir unas cuantas recetas con ustedes.</p>
+                <p>Mi misión al crear este blog es demostrar que la cocina mexicana puede ser divertida, creativa y accesible para todos, manteniendo la autenticidad de nuestros sabores tradicionales.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="imagenes/logo.png" alt="Logo pagina">
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Suscríbete al Newsletter</h2>
+                <p>Recibe nuevas recetas mexicanas cada semana directamente en tu email</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu email aquí..." required>
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sabores Con Sonrisa</h3>
+                    <p>Compartiendo recetas auténticas desde 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#recetas">Recetas</a></li>
+                        <li><a href="#categorias">Categorías</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>itzelgonzalez.1995.25@gmail.com</p>
+                    <p>Tel: 7227749790</p>
+                    <p>Zinacantepec, Estado de Mexico</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sabores Con Sonrisa. Creado por Itzelt Gonzalez Coyote / 501.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java/scrip.js"></script>
+</body>
+</html>
